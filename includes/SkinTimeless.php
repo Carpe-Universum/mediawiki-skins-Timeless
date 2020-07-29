@@ -4,15 +4,15 @@
  *
  * @ingroup Skins
  */
-class SkinTimeless extends SkinTemplate {
+class SkinCosmos extends SkinTemplate {
 	/** @var string */
-	public $skinname = 'timeless';
+	public $skinname = 'cosmos';
 
 	/** @var string */
-	public $stylename = 'Timeless';
+	public $stylename = 'Cosmos';
 
 	/** @var string */
-	public $template = 'TimelessTemplate';
+	public $template = 'CosmosTemplate';
 
 	/**
 	 * @param OutputPage $out
@@ -27,11 +27,11 @@ class SkinTimeless extends SkinTemplate {
 
 		$out->addModuleStyles( [
 			'mediawiki.skinning.content.externallinks',
-			'skins.timeless',
+			'skins.cosmos',
 		] );
 		$out->addModules( [
-			'skins.timeless.js',
-			'skins.timeless.mobile'
+			'skins.cosmos.js',
+			'skins.cosmos.mobile'
 		] );
 
 		// Basic IE support without flexbox
