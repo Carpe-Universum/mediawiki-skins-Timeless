@@ -1,13 +1,13 @@
 <?php
 /**
- * BaseTemplate class for the Timeless skin
+ * BaseTemplate class for the Cosmos skin
  *
  * @ingroup Skins
  */
 
 use MediaWiki\MediaWikiServices;
 
-class TimelessTemplate extends BaseTemplate {
+class CosmosTemplate extends BaseTemplate {
 
 	/** @var array */
 	protected $pileOfTools;
